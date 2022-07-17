@@ -80,22 +80,6 @@ new Typewriter('#typewriter', {
 });
 console.log("Typewriter effect is working!")
 
-
- //===================================== Progress Bar =========================
- $(document).ready(function(){
-     $('.progress-value > span').each(function(){
-         $(this).prop('Counter',0).animate({
-             Counter: $(this).text()
-         },{
-             duration: 3500,
-             easing: 'swing',
-             step: function (now){
-                 $(this).text(Math.ceil(now));
-             }
-         });
-     });
- });
-
 //===================================== Portfolio Swiper =========================
 
 var swiper = new Swiper(".blog-slider", {
