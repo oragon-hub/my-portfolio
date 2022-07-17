@@ -1265,6 +1265,16 @@ img{
   padding: 1rem 1.5rem 1rem 1.5rem;
 }
 
+/* Carousel indicators */
+.carousel-indicators li {
+  background-color: rgb(233, 9, 9);
+  border-radius: 100% !important;
+}
+
+.carousel-indicators .active {
+  background-color: grey;
+}
+
   /* ===================== FOOTER SECTION ================== */
 
 .footer{
